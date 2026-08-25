@@ -45,7 +45,7 @@ export const uploadBackup   = (data) => API.post('/backup/upload', data, {
 export const listBackups    = ()     => API.get('/backup/list');
 export const deleteBackup   = (data) => API.delete('/backup/delete', { data });
  
-// ── AI (Gemini) ───────────────────────────────────────────────────────────────
+// ── AI ───────────────────────────────────────────────────────────────
 export const askChat        = (data) => API.post('/ai/ask', data);
 export const analyzeAI      = ()     => API.post('/ai/analyze');
 export const anomalyAI      = (data) => API.post('/ai/anomaly', data);
